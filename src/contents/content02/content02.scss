@@ -1,0 +1,27 @@
+.content02 {
+    .content02-text-align {
+        display: flex;
+        justify-content: center;
+        padding-top: 100px;
+
+        .content02-text {
+            display: flex;
+            flex-wrap: wrap;
+            max-width:900px;
+            .content-text-l {
+                font-size: 3rem;
+                color: #ffffff;
+                font-weight: bold;
+                margin-left: 15px;
+                letter-spacing:1px;
+            }
+            span {
+                display:block;
+                margin:0 auto;
+                color:gray;
+                
+            }
+        }
+    }
+
+}
