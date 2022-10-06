@@ -1,4 +1,5 @@
 import "./content04.scss";
+
 import phoneImg from "../../asset/images/section3_iphone.png";
 import figure01 from "../../asset/images/figure_01.png";
 import figure02 from "../../asset/images/figure_02.png";
@@ -13,6 +14,7 @@ function Content04() {
     easing: "easeOutQuad",
     translateX: [-90, 200],
   });
+
   return (
     <section className="content04">
       <span className="content04-iphone-img">

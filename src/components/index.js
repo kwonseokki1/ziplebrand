@@ -1,3 +1,3 @@
 import Header from "./header/Header";
-
-export { Header };
+import BackgroundProvider from "./BackgroundProvider";
+export { Header, BackgroundProvider };

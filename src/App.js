@@ -1,13 +1,12 @@
-import { Header } from "./components";
-import "./App.css";
+import { Header, BackgroundProvider } from "./components";
 import { AppInner } from "./AppInner";
-import { BackgroundProvider } from "./components/BackgroundProvider";
 import { ContentMain, Content02, Content03, Content04 } from "./contents";
 import section1_bg from "./asset/images/section1.jpeg";
 import { ParallaxProvider } from "react-scroll-parallax";
 function App() {
   return (
     <div className="App">
+      {/* PrallaxProvider */}
       <ParallaxProvider>
         <Header />
         <BackgroundProvider imgSrc={section1_bg}>

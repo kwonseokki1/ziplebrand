@@ -1,5 +1,5 @@
+// 백그라운드 컴포넌트
 function BackgroundProvider(props) {
-  console.log(props);
   return (
     <div
       style={
@@ -32,4 +32,4 @@ BackgroundProvider.defaultProps = {
   imgSrc: "#ffffff",
 };
 
-export { BackgroundProvider };
+export default BackgroundProvider;
